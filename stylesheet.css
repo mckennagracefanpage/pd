@@ -1,0 +1,41 @@
+@font-face {
+    font-family: disneyf;
+    src: url(font/Disneyregular.ttf);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-image: linear-gradient(to right, #b8b8b6, #abacaa, #9e9f9d, #919392, #848786);
+}
+.con{
+    background-image: url(img.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+#title{
+    font-family: disneyf;
+}
+h1{
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 6vh;
+}
+svg{
+    margin: 3px;
+    border: solid 2.3px;
+    padding: 4px;
+    border-radius: 50%;
+}
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
